@@ -1,0 +1,25 @@
+.pai {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(148, 148, 230);
+    padding: 10px; /* espaçamento interno */
+    margin: 50px; /* espaçamento externo */
+    border: 3px black solid;
+    box-sizing: border-box;
+
+
+    display: flex; /* colocar elementos um do lado do outro */
+    flex-direction: column; /* colocar em colunas */
+    gap: 20px; /* espaçamento entre os filhos */
+}
+
+.filho {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.filho1 {
+    display: flex;
+}
+
